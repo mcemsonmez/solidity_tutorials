@@ -14,6 +14,6 @@ contract MyFirstContact {
         age = _age;
     }
     function getAge() public view returns(uint){
-        return age; 
+        return age;
     }
 }
