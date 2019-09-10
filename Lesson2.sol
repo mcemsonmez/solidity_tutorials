@@ -28,7 +28,7 @@ contract Bank is Regulator {
         return value > 0;
     }
     function checkValue(uint amount) public returns(bool) {
-        return amount > value;
+        return value > amount;
     }
 }
 
